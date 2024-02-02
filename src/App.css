@@ -1,0 +1,184 @@
+.mainDiv {
+  width: 100%;
+  height: 100vh;
+}
+.App {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("https://www.logonbox.com/content/wp-content/uploads/2019/01/multi-factor-authentication.jpg");
+}
+#submitBtnPost {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #10b2ffa6;
+  color: WHITE;
+  cursor: pointer;
+}
+
+#submitBtnPost:hover {
+  background-color: #0b53a5;
+  color: white;
+}
+.input {
+  width: 400px;
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  padding: 10px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.input:focus {
+  outline: none;
+  border: 4px solid#f0077b;
+}
+.main {
+  width: 40%;
+  height: 80%;
+  /* border: 0.5px solid lightgray; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #39788b;
+  background-image: url("https://www.loginradius.com/blog/static/25f482319c5c4fcb1749a8c424a007b0/d3746/login-authentication.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.liginImg {
+  width: 40%;
+  height: 80%;
+  border-radius: 16px;
+  background-image: url("https://www.loginradius.com/blog/static/25f482319c5c4fcb1749a8c424a007b0/d3746/login-authentication.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.liginImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+.loginMainmainDiv {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginDiv {
+  width: 100%;
+}
+
+.inputDiv {
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+}
+.inputDiv img {
+  width: 20%;
+  height: 100%;
+}
+.inputmainDiv {
+  width: 80%;
+  color: white;
+}
+img {
+  background-color: white;
+}
+.modalinputDiv {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+.modalinputDiv input {
+  width: 200px;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.homeContainer {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://www.eiopa.europa.eu/sites/default/files/styles/ewcms_metatag_image/public/2020-12/adobestock_220393354_sustainability-insurance-950.jpg?itok=ifNqkJAd");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden !important;
+}
+.conatiner {
+  height: 100%;
+}
+.header {
+  /* height: 8%; */
+  background-color: #be1313 !important;
+}
+.sectionMain {
+  /* height: 86%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("https://t3.ftcdn.net/jpg/04/26/37/18/360_F_426371877_jGyegFYEcXrgkc6zMrwbjkJlducr7z8h.jpg"); */
+  background-size: cover;
+}
+.footer {
+  /* height: 6%; */
+  background-color: lightgray;
+}
+.column a {
+  text-decoration: none;
+  color: white;
+}
+
+.section {
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subHeader {
+  border-radius: 8px;
+  background-color: #0a2f96 !important;
+}
+
+.mastermain {
+  border: 0.5px solid lightgray;
+  padding: 0px !important;
+  background-color: rgb(236, 243, 245);
+  border-radius: 8px;
+  padding-bottom: 10px !important;
+}
+.dashboardContiner {
+  width: 80%;
+  background-color: rgb(236, 243, 245);
+  height: 80% !important;
+}
+.cartConatiner {
+  width: 100%;
+  height: 80vh !important;
+  background-color: rgb(236, 243, 245);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap !important;
+  overflow-y: scroll;
+}
+.headerBemzon {
+  background-color: #9baa13;
+  padding: 10px;
+}
+.addcartmodalheader {
+  background-color: #9baa13;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
